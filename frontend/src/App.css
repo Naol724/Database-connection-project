@@ -1,0 +1,95 @@
+/* Main container */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Titles */
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Form card */
+.form-card {
+  background: #f7f9fc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.add {
+  background: #0077ff;
+}
+
+.update {
+  background: #ff9800;
+}
+
+.cancel {
+  background: #666;
+}
+
+.delete {
+  background: #e53935;
+}
+
+.edit {
+  background: #43a047;
+}
+
+/* Small buttons */
+.small {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+/* Student card */
+.student-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 5px solid #0077ff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Actions container */
+.actions {
+  display: flex;
+  gap: 10px;
+}
